@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.research-card {
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.research-card h3 {
+    margin-top: 0;
+}
+
+.research-card a {
+    text-decoration: none;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
